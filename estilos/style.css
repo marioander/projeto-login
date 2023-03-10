@@ -1,2 +1,74 @@
 @charset "UTF-8";
 
+:root {
+    --verde: #49a09d;
+    --lilas: #5f2c82;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+html, body {
+    background-color: #5f2c82;
+}
+
+h1 {
+    text-align: center;
+    font-size: 1.6em;
+    padding: 5px;
+}
+
+main > p {
+    text-align: left;
+    font-size: 0.8em;
+    padding: 5px 10px;
+}
+
+iframe {
+    display: block;
+    margin: auto;
+    margin-top: 23vh;
+    width: 250px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.682);
+}
+
+main {
+    position: ;
+    left: 80px;
+    width: 250px;
+    height: 300px;
+    border-radius: 0px 0px 20px 20px ;
+    background-color: white;
+}
+
+form {
+    
+}
+
+input {
+    border-radius: 10px;
+    background-color: #9bd5d3;
+    height: 35px;
+    margin-left: px;
+    width: 180px;
+    
+}
+
+form > p {
+    color: white;
+    background-color: #5f2c82;
+    margin: 0px 10px;
+    padding-left: 10px;
+    border-radius: 10px;
+    height: 40px;
+
+}
+
+::placeholder { /* Estilo para todos os navegadores */
+    font-size: 16px;
+}
