@@ -28,10 +28,11 @@ main > p {
 }
 
 iframe {
-    position: relative;
-    top: 22vh;
-    display: block;
-    margin: auto;
+    position: absolute;
+    top: 50%;
+    margin-top: -250px;
+    left: 50%;
+    margin-left: -125px;
     width: 250px;
     height: 500px;
     border-radius: 20px;
@@ -39,10 +40,10 @@ iframe {
 }
 
 main {
-    top: 22vh;
     position: absolute;
+    top: 50%;
+    margin-top: -50px;
     left: 50%;
-    margin-top: 200px;
     margin-left: -125px;
     width: 250px;
     height: 300px;
@@ -70,6 +71,8 @@ input {
     margin-top: 2px;
     width: 180px;
     position: absolute;
+    font-size: 16px;
+    padding-left: 5px;
 }
 
 input:focus {
@@ -92,11 +95,6 @@ input:focus {
     padding-left: 5px;
     border-radius: 5px;
     height: 40px;
-}
-
-::placeholder { /* Estilo para todos os navegadores */
-    font-size: 16px;
-    padding-left: 5px;
 }
 
 
