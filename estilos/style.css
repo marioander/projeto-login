@@ -29,7 +29,7 @@ main > p {
 
 iframe {
     position: relative;
-    top: 24vh;
+    top: 22vh;
     display: block;
     margin: auto;
     width: 250px;
@@ -39,11 +39,11 @@ iframe {
 }
 
 main {
+    top: 22vh;
     position: absolute;
-    display: block;
-    margin: auto;
-    top: 45.7vh;
-    left: 25vw;
+    left: 50%;
+    margin-top: 200px;
+    margin-left: -125px;
     width: 250px;
     height: 300px;
     border-radius: 0px 0px 20px 20px ;
@@ -51,18 +51,14 @@ main {
 }
 
 form {
-
+    height: 190px;
 }
 
 #person {
     font-size: 2em;
     padding-top: 5px;
     padding-left: 2px;
-    font-variation-settings:
-  'FILL' 1,
-  'wght' 400,
-  'GRAD' 0,
-  'opsz' 48
+
 }
 
 input {
@@ -103,6 +99,7 @@ input:focus {
     padding-left: 5px;
 }
 
+
 #identrar {
     height: 40px;
     color: white;
@@ -135,6 +132,12 @@ input:focus {
 #idesqueci:hover {
     background-color: #5fc1be;
 }
+
+#mail {
+    font-size: 12px;
+    padding-top: 10px;
+
+ }
 
 a {
     text-decoration: none;
