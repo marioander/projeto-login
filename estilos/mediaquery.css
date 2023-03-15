@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+:root {
+    --verde: #49a09d;
+    --lilas: #5f2c82;
+}
+
+/* TABLET */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  
+    html, body {
+        background-image: linear-gradient(to bottom, #5f2c82, #49a09d);
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 100vh;
+        
+    }
+
+    main {
+        width: 55vw;
+        height: 280px;
+        margin-top: -140px;
+        margin-left: -15vw;
+        border-radius: 0px 20px 20px 0px;
+    }
+
+    iframe {
+        width: 80vw;
+        height: 280px;
+        margin-top: -140px;
+        margin-left: -40vw;
+    }
+
+    #idemail {
+        width: calc(100% - 75px);
+    }
+
+    #idsenha {
+        width: calc(100% - 75px);
+    }
+
+}
+
+/* DEKTOP E GRANDES TELAS */
+@media screen and (min-width: 992px) {
+
+
+    html, body {
+        background-image: linear-gradient(to bottom, #5f2c82, #49a09d);
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 100vh;
+    }
+
+    iframe {
+        height: 350px;
+        margin-top: -175px;
+        width: 500px;
+    }
+
+    main {
+        display: none;
+        width: 476px;
+        height: 350px;
+        border-radius: 20px 0px 0px 20px;
+        margin-top: -175px;
+        margin-left: -476px;
+    }
+
+    h1 {
+        font-size: 2em;
+        padding-top: 10px;
+    }
+    
+    main > p {
+        text-align: left;
+        font-size: 1em;
+        padding: 20px 10px 15px 10px;
+    }
+    
+}
+

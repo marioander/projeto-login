@@ -11,6 +11,7 @@
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+
 html, body {
     background-color: #5f2c82;
 }
@@ -18,7 +19,6 @@ html, body {
 h1 {
     text-align: center;
     font-size: 1.6em;
-    padding: 5px;
 }
 
 main > p {
@@ -42,7 +42,7 @@ iframe {
 main {
     position: absolute;
     top: 50%;
-    margin-top: -50px;
+    margin-top: -56px;
     left: 50%;
     margin-left: -125px;
     width: 250px;
@@ -52,91 +52,99 @@ main {
 }
 
 form {
-    height: 190px;
+    width: 100%;
+    height: auto;
 }
 
-#person {
-    font-size: 2em;
-    padding-top: 5px;
-    padding-left: 2px;
-
+.divs {
+    color: white;
+    background-color: #5f2c82;
+    margin: 5px 10px 0px 10px;
+    border-radius: 10px;
+    height: 40px;
 }
 
-input {
+#icones {
+    font-size: 29px;
+    padding-top: 8px;
+    padding-left: 10px;
+    text-align: center;
+}
+
+#idemail {
+    position: absolute;
     border-radius: 10px;
     border: none;
     background-color: #9bd5d3;
-    height: 35px;
-    margin-left: 8px;
-    margin-top: 2px;
+    height: 36px;
     width: 175px;
-    position: absolute;
-    font-size: 16px;
+    margin-top: 2px;
+    margin-left: 8px;
     padding-left: 5px;
+    font-size: 16px;
 }
 
-input:focus {
+#idemail:focus {
     background-color: white;
 }
 
-.pemail {
-    color: white;
-    background-color: #5f2c82;
-    margin: 0px 10px 0px 10px;
+#idsenha {
+    position: absolute;
+    border-radius: 10px;
+    border: none;
+    background-color: #9bd5d3;
+    height: 36px;
+    width: 175px;
+    margin-top: 2px;
+    margin-left: 8px;
     padding-left: 5px;
-    border-radius: 5px;
-    height: 40px;
+    font-size: 16px;
 }
 
-.psenha {
-    color: white;
-    background-color: #5f2c82;
-    margin: 5px 10px 0px 10px;
-    padding-left: 5px;
-    border-radius: 5px;
-    height: 40px;
+#idsenha:focus {
+    background-color: white;
 }
-
 
 #identrar {
     height: 40px;
+    width: calc(100% - 20px);
     color: white;
     background-color: #53aaa7;
     margin: 5px 10px 0px 10px;
-    width: 230px;
     border-radius: 5px;
     border: none;
     font-size: 1em;
+    display: block;
+    cursor: pointer;
 }
 
 #identrar:hover {
     background-color: #397775;
-    cursor: pointer;
+    
 }
 
-#idesqueci {
-    text-align: center;
-    height: 39px;
-    color: #397775;
+.divesqueci {
     background-color: white;
-    width: 230px;
+    margin: 5px 10px 0px 10px;
     border-radius: 5px;
-    font-size: 1em;
-    margin: 50px 10px 0px 10px;
     border: 1px solid #53aaa7;
-    position: absolute;
+    height: 38px;
+    text-align: center;
+    font-size: 1em;
 }
 
-#idesqueci:hover {
-    background-color: #5fc1be;
+.divesqueci:hover {
+    background-color: #6ad3d0;
 }
-
-#mail {
-    font-size: 12px;
-    padding-top: 10px;
-
- }
 
 a {
+    color: #397775;
     text-decoration: none;
 }
+
+#iconemail {
+    font-size: 12px;
+    padding-top: 10px;
+ }
+
+ 
