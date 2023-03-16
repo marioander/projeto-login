@@ -6,7 +6,7 @@
 }
 
 /* TABLET */
-@media screen and (min-width: 768px) and (max-width: 992px) {
+@media screen and (min-width: 768px) and (max-width: 991px) {
   
     html, body {
         background-image: linear-gradient(to bottom, #5f2c82, #49a09d);
@@ -30,15 +30,7 @@
         margin-top: -140px;
         margin-left: -40vw;
     }
-
-    #idemail {
-        width: calc(100% - 75px);
-    }
-
-    #idsenha {
-        width: calc(100% - 75px);
-    }
-
+    
 }
 
 /* DEKTOP E GRANDES TELAS */
@@ -55,11 +47,12 @@
     iframe {
         height: 350px;
         margin-top: -175px;
-        width: 500px;
+        margin-left: -476px;
+        width: 952px;
+        border-radius: 20px 20px 20px 20px;
     }
 
     main {
-        display: none;
         width: 476px;
         height: 350px;
         border-radius: 20px 0px 0px 20px;
